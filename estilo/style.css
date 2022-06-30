@@ -1,16 +1,32 @@
 body{
     background-color: bisque;
+    width: 50%;
+    margin: auto;
+}
+
+.profile{
+    text-align: center;
 }
 
 .photo-image{
-    border-radius: 10px;
+    border-radius: 50%;
     border: 1px solid #000000;
+    width: 20%;   
 }
 
 #title, .subtitle, .post-title {
-    color: blue;
+    color: #000000;
 }
 
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a{
+    color: #002952;
+}
+    
 .post-title {
     font-size: 16px;
     font-style: italic;
@@ -26,11 +42,27 @@ body{
 }
 
 .post-content{
-    margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
+    
+}
+
+.image-align{
+    text-align: center;
 }
 
 .post-image{
-    margin-bottom: 10px;;
+    width: 100%;
+    margin-bottom: 15px;
 }
 
+.contacts-list{
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+.contacts-list li a{
+    color: #3578E5;
+}
